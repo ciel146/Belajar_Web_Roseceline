@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kartu</title>
+    <style>
+        /* Mewarnai latar web agar abu-abu terang */
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+    
+        }
+
+        /* Membentuk div menjadi kartu */
+        .kartu {
+            background-color: white;
+            width: 300px; /* Lebar kartu */
+            margin: 50px auto; /* Margin auto akan membuat kartu berada di TENGAH layar! */
+            padding: 20px;
+            border-radius: 10px; /* Ujung kartu melengkung */
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        
+        /* Membentuk foto menjadi lingkaran! */
+        .foto {
+            border-radius: 50%;
+            width: 100px;
+        }
+
+        .pekerjaan {
+            color: gray;
+            margin-top: -10px; /* Menarik teks agak ke atas agar tidak terlalu jauh dari judul */
+        }
+
+        /* Tulis sendiri CSS untuk .btn-kontak agar tombolnya terlihat bagus(Gunakan ilmu dari Misi 2!) */
+        .btn-kontak {
+            background-color: pink;
+            color: white;
+            padding: 10px 20px;
+            margin-left: 20px; 
+            border: lightblue;
+            border-radius: 25px; 
+            font-size: 17px;
+            cursor: pointer; 
+        }
+    </style>
+</head>
+<body>
+    <div class="kartu">
+    <img src="celine.jpg" width="300" alt="Foto profil" class="Foto">
+    <h2>Roseceline Cinta Putri Santoso</h2>
+    <p class="pekerjaan">Cyber Security</p>
+    <p>Siswa XI RPL yang bercita-cita membuat start up teknologi di Indonesia.</p>
+    <button class="btn-kontak">Hubungi Saya</button>
+    </div>
+</body>
+</html>
